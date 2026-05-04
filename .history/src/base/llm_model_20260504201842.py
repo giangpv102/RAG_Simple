@@ -1,7 +1,7 @@
 import torch
 from transformers import BitsAndBytesConfig
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-from langchain_community.llms import HuggingFacePipeline
+from langchain.llms.huggingface_pipeline import HuggingFacePipeline
 
 nf4_config = BitsAndBytesConfig(
     load_in_4bit=True,
