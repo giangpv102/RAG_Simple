@@ -1,0 +1,14 @@
+
+transformers>=4.35.0
+torch>=2.0.0
+bitsandbytes>=0.46.1
+accelerate>=0.20.3
+langchain>=0.1
+langchain-core
+langchain-huggingface
+langchain_community
+chromadb
+huggingface-hub
+tqdm
+pydantic
+wget
